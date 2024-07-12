@@ -603,8 +603,8 @@ class CurrentlyPlayingViewModel(
                                 (chapterDuration.value ?: 0L) - (
                                     chapterProgress.value
                                         ?: 0L
-                                )
-                            ) / prefsRepo.playbackSpeed
+                                    )
+                                ) / prefsRepo.playbackSpeed
                             ).toLong()
                         BEGIN to duration
                     }
