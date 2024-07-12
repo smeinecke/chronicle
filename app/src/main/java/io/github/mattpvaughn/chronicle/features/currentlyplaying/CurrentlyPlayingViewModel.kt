@@ -601,8 +601,8 @@ class CurrentlyPlayingViewModel(
                         val duration = (
                             (
                                 (chapterDuration.value ?: 0L) - (
-                                chapterProgress.value
-                                    ?: 0L
+                                    chapterProgress.value
+                                        ?: 0L
                                 )
                             ) / prefsRepo.playbackSpeed
                             ).toLong()
